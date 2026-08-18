@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Próximamente - Videojuego</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="layout">
+    <header class="area-header header">
+        Proximamente : pagina de videojuego
+    </header>
+
+    <nav class="area-nav navegacion">
+        <ul class="menu">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Características</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero -->
+    <main class="area-hero hero">
+        <h1>Estamos trabajando en ello</h1>
+        <h2>Envíe un mensaje de por qué debería participar en la beta</h2>
+    </main>
+
+    <!-- Tarjetas -->
+    <section class="area-features features">
+        <div class="row w-100">
+            <div class="col-12 col-md-4 mb-3">
+                <div class="card h-100">
+                    <h3>Mundo Abierto</h3>
+                    <p>Explora un vasto universo lleno de misterios por descubrir.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-3">
+                <div class="card h-100">
+                    <h3>Multijugador</h3>
+                    <p>Compite o coopera con jugadores de todo el mundo en tiempo real.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-3">
+                <div class="card h-100">
+                    <h3>Gráficos Épicos</h3>
+                    <p>Impulsado por tecnología de última generación.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario -->
+    <form action="/enviar" method="post" class="area-form">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="correo" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <input type="text" id="mensaje" required minlength="10">
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <footer class="area-footer">
+        Contacto : +56 9 1234 5678 - correo@ejemplo.com
+    </footer>
+</body>
+
+</html>
