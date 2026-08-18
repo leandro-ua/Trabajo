@@ -56,6 +56,20 @@
         </div>
     </section>
 
+    <!-- Estadísticas dinámicas e Interacciones -->
+    <section class="area-stats stats my-5 text-center">
+        <h2>Nuestros Números</h2>
+        <div id="panel-estadisticas" class="d-flex justify-content-center flex-wrap gap-3 my-4"></div>
+
+        <!-- Contador manual de interacciones -->
+        <div id="panel-interacciones" class="mt-5">
+            <h3>Hypeado por el juego?, deja tu like para mostrarnos tu apoyo</h3>
+            <h3><span id="contador-interacciones">0</span></h3>
+            <button id="btn-sumar" class="btn btn-success me-2">+1</button>
+            <button id="btn-restar" class="btn btn-danger">-1</button>
+        </div>
+    </section>
+
     <!-- Formulario -->
     <form action="/enviar" method="post" class="area-form">
         <label for="nombre">Nombre:</label>
