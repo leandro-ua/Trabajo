@@ -7,4 +7,3 @@ Lab 2:
 Se a añadido un enfoque responsivo a la pagina, haciendo que sea un diseño "mobile-first" y que se ajuste segun la resolucion del dispositivo
 
 Integrantes : Leandro Donoso
-gi
